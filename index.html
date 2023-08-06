@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="tr" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Kurumsal Proje 1</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <style>
+        aside>div.list-group {
+            position: sticky;
+            top: 70px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" >
+      <div class="container">
+        <a class="navbar-brand" href="#">OCTO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expan
+          ded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+            <nav class="nav">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Ana Sayfa</a
+              >
+              <a class="nav-link" href="#">Hakkımzıda</a>
+              <a class="nav-link" href="#">Urunler</a>
+              <a class="nav-link" href="#">Iletisim</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAV END -->
+
+    <div class="container-fluid" id="info">
+      <div class="row bg-dark text-light p-5 align-items-center">
+        <div class="col-sm-4">
+          <!-- Caroursel Info -->
+          <div id="octoInfo" class="carousel slide">
+            <div class="carousel-indicators mb-1">
+              <button
+                type="button"
+                data-bs-target="#octoInfo"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#octoInfo"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#octoInfo"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h2>Firmamızın Sunduları</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                  earum explicabo id ex neque, sequi aliquam iste illum
+                  repudiandae nesciunt!
+                </p>
+                <p>
+                  Minus, quia! Id aperiam repellat molestias earum eligendi! Aut
+                  ratione similique illo saepe ducimus dolore fugiat corporis
+                  nesciunt maxime recusandae.
+                </p>
+              </div>
+              <div class="carousel-item">
+                <h2>Firmamızın Misyonu</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                  earum explicabo id ex neque, sequi aliquam iste illum
+                  repudiandae nesciunt!
+                </p>
+                <p>
+                  Minus, quia! Id aperiam repellat molestias earum eligendi! Aut
+                  ratione similique illo saepe ducimus dolore fugiat corporis
+                  nesciunt maxime recusandae.
+                </p>
+              </div>
+              <div class="carousel-item">
+                <h2>Firmamızın Vizyonu</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                  earum explicabo id ex neque, sequi aliquam iste illum
+                  repudiandae nesciunt!
+                </p>
+                <p>
+                  Minus, quia! Id aperiam repellat molestias earum eligendi! Aut
+                  ratione similique illo saepe ducimus dolore fugiat corporis
+                  nesciunt maxime recusandae.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Caroursel Info End -->
+        </div>
+        <div class="col-sm-8">
+          <!-- Caroursel Img -->
+
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#car1ousel5xampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner rounded">
+              <div class="carousel-item active">
+                <img
+                  src="https://picsum.photos/id/237/1200/350
+"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item rounded">
+                <img
+                  src="https://picsum.photos/id/27/1200/350
+"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item rounded">
+                <img
+                  src="https://picsum.photos/id/231/1200/350
+"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- Caroursel Img   End -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Container -->
+    <div class="container" id="hero">
+      <!-- Hero Info -->
+      <div
+        class="row justify-content-center text-center rounded my-3 p-5 border shadow my-5"
+      >
+        <div class="col-sm-8">
+          <h1 class="display-5">OCTO Sizi Gelecege Tasir</h1>
+          <p class="lead">Gelecek <mark>Sizin Ellerinizde</mark></p>
+          <p class="lead">
+            Eos placeat obcaecati amet molestias excepturi non, dicta ex eaque.
+          </p>
+          <p class="lead">
+            Dicta debitis nesciunt non sapiente aliquam. Atque harum impedit
+            ipsam.
+          </p>
+        </div>
+      </div>
+      <!-- Hero Info End -->
+
+      <!-- Cards -->
+
+      <div class="row" id="product">
+        <div class="col-sm-6">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="https://picsum.photos/id/237/400/550"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Kopus</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div class="d-grid">
+                    <a href="#" class="btn btn-outline-primary">İncele</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/27/400/240"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Product 2</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-primary">Incele</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/271/400/240"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Product 3</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-outline-primary">Incele</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards End -->
+
+      <!-- Aside ve Content -->
+
+      <div class="row">
+        <aside class="col-sm-3 my-5">
+            <div class="list-group shadow">
+                <a href="#info" class="list-group-item list-group-item-action">Bilgiler</a>
+                <a href="#product" class="list-group-item list-group-item-action">Urunler</a>
+                <a href="#article" class="list-group-item list-group-item-action">Makaleler</a>
+                <a href="#images" class="list-group-item list-group-item-action">Gorseller</a>
+              </div>
+        </aside>
+        <section class="col-sm-9" id="article">
+            <article class="card p-3 mb-3 shadow">
+                <img src="https://picsum.photos/id/231/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                <h2>Makale 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum deleniti expedita, eligendi consequatur repellat. Enim, laborum magnam? Excepturi, odit?</p>
+                <p>Deleniti molestiae numquam excepturi odio id non eveniet debitis laboriosam. Est quaerat facere dolorem dignissimos! Possimus quam odit magni vel!</p>
+                <p>Commodi perferendis cum ad iusto iste molestiae minus quidem, ex odio molestias laborum quaerat nam vero ea. Fugiat, laboriosam nesciunt!</p>
+            </article>
+            <article class="card p-3 mb-3 shadow">
+                <img src="https://picsum.photos/id/232/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                <h2>Makale 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora natus dolorem alias possimus dolores voluptates, veritatis dicta. Modi, quo accusamus.</p>
+                <p>Enim doloremque natus, rem reiciendis quae facilis nisi neque? Pariatur quas soluta distinctio explicabo possimus. Veritatis ipsa nesciunt consectetur facere?</p>
+                <p>Accusamus nobis, iste illum repudiandae cum suscipit, sunt blanditiis incidunt eaque, non voluptas consequatur animi porro facilis ut veritatis possimus.</p>
+            </article>
+            <article class="card p-3 mb-3 shadow">
+                <img src="https://picsum.photos/id/233/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                <h2>Makale 3</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita atque natus repellat accusantium sit quasi modi quos itaque ab veniam.</p>
+                <p>Obcaecati quibusdam nostrum, exercitationem veritatis nulla sunt quae minima eveniet atque fugiat voluptatem dolor id, libero repudiandae quas harum hic.</p>
+                <p>Facilis, incidunt dicta. Vel, iure excepturi nesciunt atque quam voluptates quo eos numquam ipsum harum, impedit, eveniet quibusdam placeat ab!</p>
+            </article>
+            <article class="card p-3 mb-3 shadow">
+                <img src="https://picsum.photos/id/234/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                <h2>Makale 4</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt temporibus optio cupiditate dolorum, ipsum nisi corrupti. Qui similique facilis eos.</p>
+                <p>Voluptas numquam quia modi cum dolorem nam obcaecati. Velit inventore quas iste minus repellat eligendi in assumenda autem maiores dolorum.</p>
+                <p>Minus, corrupti. Porro quasi dolorum tempora dignissimos id consequuntur! Fugit ea distinctio laborum laboriosam. Natus, aperiam exercitationem. Aliquid, vero nihil!</p>
+            </article>
+            <article class="card p-3 mb-3 shadow">
+                <img src="https://picsum.photos/id/235/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                <h2>Makale 5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veritatis nam doloremque, sed et unde sit? Laudantium est voluptatem minus.</p>
+                <p>Eius tenetur a ratione, sunt velit ut fugiat, vel quam sequi dicta consectetur. Est aliquam dolor impedit ipsa fugiat enim?</p>
+                <p>Doloremque, quae eius natus ratione porro illo! Suscipit deserunt, unde maxime eos aliquid, rerum laborum cum soluta, quos vitae tempore!</p>
+            </article>
+        </section>
+      </div>
+
+      <!-- Aside ve Content End -->
+
+      <div class="container-fluid" id="images">
+        <div class="row my-5">
+            <div class="col"><img src="https://picsum.photos/id/21/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/22/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/23/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/24/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/25/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/26/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/27/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/28/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/29/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/210/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/211/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/212/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/213/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/214/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/215/300/240" alt="" class="img-thumbnail w-100"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="py-3 my-4 border-top">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Ana Sayfa</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Hakkımızda</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Urunler</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Iletisim</a></li>
+            
+          </ul>
+          <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+        </footer>
+      </div>
+    <!-- Footer End -->
+
+
+    </div>
+
+    
+
+    <!-- Container End-->
+
+    
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
